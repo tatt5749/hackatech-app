@@ -1,0 +1,77 @@
+{
+    "app": {
+        
+        "login" : "Login",
+        "sign_in" : "Sign In",
+        "cancel" : "Cancel",
+       
+        "welcome_back" : "Welcome Back",
+        "welcome" : "Welcome",
+        "error" : "Error!",
+        
+        "submit" : "Submit",
+      
+        "strong_password_info" : "Passwords must be a minimum of 8 characters with at least 1 number,1 capital character and 1 special character.",
+        "success" : "Success",
+        "fail" : "Fail",
+       
+        "confirm" : "Confirm",
+        "something_went_wrong" : "Something went wrong, please try again later",
+        
+        "token_expired" : "Sorry, your token expired.Please Login Again",
+        "home" :"Home",
+        "account" : "Account",
+        "change_password_success" : "Your Password has been changed successfully.Use your new password to log in.",
+        "password_updated" : "Password Updated!",
+       
+      
+        "language" : "Language",
+        "my_profile" : "My Profile",
+        "continue" : "Continue",
+        "please_wait" : "Please Wait...",
+        "user" : "User",
+        "save" : "Save",
+        "wallet" : "Wallet",
+        "transactions" : "Transactions",
+        "all" : "All",
+        "completed" : "Completed",
+        "failed" : "Failed",
+        "pending" : "Pending",
+        "send" : "Send",
+        "no_data" : "No Data !"
+    }, 
+    "account" : {
+       
+    },
+    "wallet" : {
+       
+    },
+    "transaction" : {
+       
+    },
+    "input" :{
+        "wallet_address" : "Wallet Address",
+        "send_amount" : "Send Amount",
+        "amount" : "Amount",
+        "password" : "Password",
+        "new_password" : "New Password",
+        "confirm_password" :"Confirm Password",
+        "current_password" : "Current Password",
+        "username" : "Username",
+        "email" : "Email",
+        "phone_number" : "Phone Number",
+        "name" : "Name",
+        "gender": "Gender",
+        "country" : "Country",
+        "edit_field_desc" :  "Edit {{field}}"
+    },
+    "validation":{ 
+        "required" : "{{attribute}} field is required",
+        "invalid_field" : "Invalid {{field}}",
+        "strong_password" : "Passwords must be a minimum of 8 characters including number, Upper, Lower And one special character",
+        "password_not_match" : "Your passwords do no match",
+        "numeric" : "The {{attribute}}  must be a number.",
+        "gte_numeric" : "The {{attribute}} cannot exceed the max limit of {{value}}",
+        "lte_numeric" : "The {{attribute}} cannot be less than the min limit of {{value}}"
+    }
+}
