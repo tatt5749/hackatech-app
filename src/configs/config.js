@@ -19,3 +19,15 @@ export const LOGIN_EMAIL_URL = `auth/login/email`;
 export const LOGIN_PHONE_URL = `auth/login/phone`;
 
 export const HOME_OVERVIEW_URL = `fixed/overview`;
+
+export const WALLET_OVERVIEW_URL = `fixed/overview/personal`;
+export const CREATE_WALLET_URL = `fixed/setupWallet`;
+export const STAKE_OVERVIEW_URL = `fixed/overview/stake`;
+export const SEND_URL = `fixed/send`;
+export const STAKE_URL = `fixed/stake`;
+export const CLAIM_URL = `fixed/claim`;
+export const UNSTAKE_URL = `fixed/unstake`;
+export const STAKES_LIST_URL = `fixed/stakes`;
+export const CHECK_STAKE_STATUS_URL = `fixed/transaction/status`;
+export const APPROVE_STAKE_URL = `fixed/approveStake`;
+export const APPROVE_CLAIM_URL = `fixed/approveClaim`;

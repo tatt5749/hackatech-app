@@ -37,14 +37,14 @@ const HomeComponent = ({
             isPositive: true,
             percentage: 20,
         },
-        {
-            id: '2',
-            image: require('../../../assets/images/crypto_icon/eth.png'),
-            name: overviewData?.governance_token_symbol,
-            amount: fixedgovToken,
-            isPositive: false,
-            percentage: 3,
-        },
+        // {
+        //     id: '2',
+        //     image: require('../../../assets/images/crypto_icon/eth.png'),
+        //     name: overviewData?.governance_token_symbol,
+        //     amount: fixedgovToken,
+        //     isPositive: false,
+        //     percentage: 3,
+        // },
     ];
 
     const userWelcome = () => {

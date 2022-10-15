@@ -31,7 +31,7 @@ const HomeScreen = ({}) => {
         init(INIT_OVERVIEW)(homeDispatch);
         overview()(homeDispatch);
     };
-    console.log(overviewData)
+    
     return(
         <HomeComponent 
             overviewData={overviewData}
