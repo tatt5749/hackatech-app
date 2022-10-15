@@ -41,7 +41,8 @@
         "no_data" : "No Data !"
     }, 
     "account" : {
-       
+        "logout" : "Logout",
+        "logout_enquiry" : "Are you sure you want to logout?"
     },
     "wallet" : {
        
