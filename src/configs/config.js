@@ -18,4 +18,4 @@ export const LOGIN_URL = `auth/login`;
 export const LOGIN_EMAIL_URL = `auth/login/email`;
 export const LOGIN_PHONE_URL = `auth/login/phone`;
 
-
+export const HOME_OVERVIEW_URL = `fixed/overview`;

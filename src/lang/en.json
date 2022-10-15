@@ -26,7 +26,7 @@
        
       
         "language" : "Language",
-        "my_profile" : "My Profile",
+        "token_profile" : "Token Profile",
         "continue" : "Continue",
         "please_wait" : "Please Wait...",
         "user" : "User",
@@ -45,7 +45,7 @@
         "logout_enquiry" : "Are you sure you want to logout?"
     },
     "wallet" : {
-       
+        "total_staking" : "Total Stake"
     },
     "transaction" : {
        

@@ -108,7 +108,7 @@ export const Fonts = {
     },
 
     black22Bold: {
-        fontFamily: 'arial',
+       // fontFamily: 'arial',
         fontSize: 22.0,
     },
 
