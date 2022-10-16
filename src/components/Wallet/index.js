@@ -50,7 +50,7 @@ const WalletComponent = ({
                                     <Text style={{ ...Fonts.white16Medium,flexShrink: 1 }}>
                                         {t("wallet:my_wallet")}
                                     </Text>
-                                    <View style={styles.timeLeftWrapStyle}>
+                                    {/* <View style={styles.timeLeftWrapStyle}>
                                         <Pressable
                                             activeOpacity={0.9}
                                             onPress={ () => {onclickSeeContract()}}
@@ -59,7 +59,7 @@ const WalletComponent = ({
                                                 View Contract
                                             </Text>
                                         </Pressable>
-                                    </View>
+                                    </View> */}
                                     
                                 </View>
                                 

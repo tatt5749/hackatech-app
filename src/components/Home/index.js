@@ -9,7 +9,8 @@ import {
     SafeAreaView,
     Text,
     Image,
-    StatusBar
+    StatusBar,
+    Pressable
 } from 'react-native';
 import { Fonts, Colors, Sizes  } from '../../constants/Themes';
 import i18n,{t} from '../../services';
@@ -20,7 +21,8 @@ const HomeComponent = ({
     userData,
     overviewData,
     loading,
-    onRefresh
+    onRefresh,
+    onclickSeeContract
 }) => {
     const {navigate} = useNavigation();
     const [refreshing, setRefreshing] = React.useState(false);
@@ -79,7 +81,20 @@ const HomeComponent = ({
                         </View>
                     :
                     <View style={styles.balanceAndProfitInfoContainerStyle}>
-                        <Text style={{ ...Fonts.white16Medium }}>{  overviewData.token_name ?? "" }</Text>
+                        <View style={{ flexDirection: 'row', alignItems: 'center' }}> 
+                            <Text style={{ ...Fonts.white16Medium }}>{  overviewData.token_name ?? "" }</Text>
+                            <View style={styles.timeLeftWrapStyle}>
+                                        <Pressable
+                                            activeOpacity={0.9}
+                                            onPress={ () => {onclickSeeContract()}}
+                                        >
+                                            <Text style={{ ...Fonts.white16Medium, }}>
+                                                View Contract
+                                            </Text>
+                                        </Pressable>
+                                    </View>
+                        </View>
+                        
                         <Text style={{ ...Fonts.white30Bold, marginVertical: Sizes.fixPadding }}>{ fixedSymbol }  { fixedToken} </Text>
                         <Text style={{ ...Fonts.white16Medium, marginBottom: Sizes.fixPadding, marginTop: Sizes.fixPadding + 5.0 }}>
                             {t("wallet:total_staking")}
@@ -179,6 +194,14 @@ const HomeComponent = ({
 }
 
 const styles = StyleSheet.create({
+    timeLeftWrapStyle: {
+        marginLeft: Sizes.fixPadding + 150.0,
+        borderColor: Colors.whiteColor,
+        borderWidth: 1.0,
+        //paddingHorizontal: Sizes.fixPadding,
+        borderRadius: Sizes.fixPadding - 5.0,
+        //paddingVertical: Sizes.fixPadding - 7.0,
+    },
     userWelcomeContainerStyle: {
         flexDirection: 'row',
         justifyContent: 'space-between',

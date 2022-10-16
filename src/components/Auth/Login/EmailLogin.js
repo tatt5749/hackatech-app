@@ -17,7 +17,7 @@ const EmailLogin = ({
     //const {control,handleSubmit,formState:{errors}} = useForm();
     const {control,handleSubmit,formState:{errors}} = useForm({
         defaultValues: {
-            email: 'c.wailoon92@gmail.com',
+            email: 'heck@hackatech.com',
             password: "Wailoon@5255"
         }
     });
@@ -44,7 +44,7 @@ const EmailLogin = ({
                         style={styles.textFieldContainerStyle}
                         styleInput={{ ...Fonts.black16Medium }}
                         errorStyle={styles.errorContainerStyle}
-                        inputValue="c.wailoon92@gmail.com"
+                        inputValue="heck@hackatech.com"
                     />
                     <CustomPassword 
                         name='password'
